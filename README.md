@@ -33,6 +33,8 @@ https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.h
 
 ### to do
 
+compare against mendo's autoexec when released
+
 clean up
 
 find away to bind to 3 keys
