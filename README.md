@@ -13,8 +13,26 @@ You can add these in origin or at the end of your path in your desktop shortcut(
 ```-preload``` could cause stutters on some old systems. but will increse preformance on others.
 ```-high``` is to set the game process in high priority.
 
+## Locations
+
+```videoconfig.txt``` and ```settings.cfg``` go in 
+
+```C:\Users\ (user) \Saved Games\Respawn\Apex\local```
+
+```videoconfig.txt``` should be set to read only. as making a video change in game will result in the file to reset.
+
+```autoexec.cfg``` goes in the instalations path ```Apex/cfg/```
+
+example ```E:\Games\Apex\cfg\autoexec.cfg```
+
 ## Frame caping
 
 Use RTSS for framerate caping as like most other game engines nothing beats RTSS in frame cap consistancy. I wish there was an equivalent that was open source
 
 https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html
+
+### to do
+
+clean up
+
+find away to bind to 3 keys
