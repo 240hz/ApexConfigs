@@ -31,7 +31,13 @@ Use RTSS for framerate caping as like most other game engines nothing beats RTSS
 
 https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html
 
-### to do
+## Other things notable 
+
+```max_fps``` only works up to 144
+
+binding a third key to an action
+
+## to do
 
 compare against mendo's autoexec when released
 
