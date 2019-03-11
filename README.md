@@ -41,6 +41,5 @@ Binding a third key is simple and can be done in ```*.cfg```. for examples refer
  
 ## to do
 
-compare against mendo's autoexec when released
- 
-clean up cfgs
+- compare against mendo's autoexec when released
+- clean up cfgs
