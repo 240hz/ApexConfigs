@@ -69,4 +69,5 @@
 	"setting.r_particle_lighting_enable"	"0"
 	"setting.r_particle_low_res_enable"	"1"
 	"setting.dof_enable"	"0"
+	"setting.mat_depthfeather_enable" "0"
 }
