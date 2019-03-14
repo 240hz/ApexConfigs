@@ -35,11 +35,22 @@ Use RTSS for framerate caping as like most other game engines caps nothing beats
 
 https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html
 
+## Included binds
+
+Included binds in ```binds.cfg``` that is exicuted in ```autoexec.cfg```
+
+- ```~``` and ```DELETE``` Keys will re-execute ```autoexec.cfg```
+- ```END``` toggles ```cl_showpos 0 1```
+- ```HOME``` toggles ```cl_showfps 0 4```
+- ```]``` toggles ```cl_fovScale 1.275 1.55``` (90-110) a fix for bloodhounds ult if you get massive frame drops. or for useing scopes range finder as the ticks are bugged on fov diffrent then 90.
+
 ## Other things notable 
 
 - Binding a third key is simple and can be done in ```*.cfg```. for examples reference ```settings.cfg```. Insted of a ```0``` or a ```1``` at the end of the bind command seqence you will need to put a ```2```. For a 4th bind of an action you will need a ```3``` etc. example: ```bind "ALT" "+jump" 2```. This would make the 3rd bind for jump ALT. and this should be put in ```binds.cfg```.
 
 - exicuting the autoexec.cfg while in a match ```DEL``` key will apply visual diffrences. these visual diffrences are optimized atm for Max Dark Boost options on gaming monitors.
+
+- some command settings only work at startup in ```videoconfig.txt``` like LOD. and others like FOV may work as a ingame bind.
  
 ## to do
 
