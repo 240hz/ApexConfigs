@@ -5,7 +5,6 @@
 	"setting.cl_particle_fallback_multiplier"	"0"
 	"setting.cl_ragdoll_maxcount"	"0"
 	"setting.cl_ragdoll_self_collision"	"0"
-	"setting.mat_depthfeather_enable"	"0"
 	"setting.mat_forceaniso"	"0"
 	"setting.mat_mip_linear"	"0"
 	"setting.stream_memory"	"0"
