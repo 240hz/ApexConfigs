@@ -1,5 +1,5 @@
 # Apex Configs
-sorry they might be a little messy
+configs optimized for highest fps posible
 
 ## Start up parameters
 You can add these in origin or at the end of your path in your desktop shortcut(helps if you have multiple accounts)
