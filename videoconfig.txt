@@ -55,7 +55,7 @@
 	"fog_enableskybox"	"0"
 	"r_particle_lighting_enable"	"0"
 	"r_particle_low_res_enable"	"1"
-	"r_particle_timescale" "-9999999999" 
+	"r_particle_timescale" "2" 
 	"setting.mat_disable_bloom"	"1"
 	"setting.mat_specular"	"0"
 	"setting.mat_bumpmap"	"0"
@@ -71,5 +71,5 @@
 	"setting.r_particle_lighting_enable"	"0"
 	"setting.r_particle_low_res_enable"	"1"
 	"setting.dof_enable"	"0"
-	"setting.r_particle_timescale" "-9999999999"
+	"setting.r_particle_timescale" "2"
 }
