@@ -1,5 +1,7 @@
 # Apex Configs
-configs optimized for highest fps posible
+configs optimized for a competitve player and the highest fps posible.
+
+please feel free to contribute in testing, cleaning up or adding posible command tweeks.
 
 ## Start up parameters
 You can add these in origin or at the end of your path in your desktop shortcut(helps if you have multiple accounts)
