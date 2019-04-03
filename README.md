@@ -6,10 +6,11 @@ please feel free to contribute in testing, cleaning up or adding posible command
 ## Start up parameters
 You can add these in origin or at the end of your path in your desktop shortcut(helps if you have multiple accounts)
 
+### start up parameters seem to crash the game on launch with recent patch 
 
-```-novid +fps_max unlimited -refresh 240 -dev -console -preload -forcenovsync -fullscreen -high +exec autoexec.cfg```
+```-novid +fps_max 0 -refresh 240 -dev -console -preload -forcenovsync -fullscreen -high +exec autoexec.cfg```
 
-
+```+fps_max``` set fps 1-300 0 = unlimited
 ```-refresh``` add the hz of you monitor's refreshrate.
 ```-dev -console``` are to enable developer console and is cheat protected.
 ```-preload``` could cause stutters on some old systems. but will increse preformance on others.
