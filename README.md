@@ -4,14 +4,11 @@ configs optimized for a competitve player and the highest fps posible.
 please feel free to contribute in testing, cleaning up or adding posible command tweeks. cvar.txt has many commands to test.
 
 ## Start up parameters
-### `START UP PARAMETERS MAY CRASH THE GAME(BUG FROM RECENT PATCH)
-If you wish to autoexec on Start up you can add ```exec "autoexec.cfg"``` at the end of ```profile.cfg```. you will need to make ```profile.cfg``` read only or else it will over wright after exicution.`
+### *START UP PARAMETERS MAY CRASH THE GAME(BUG FROM RECENT PATCH)
+If you wish to autoexec on Start up you can add ```exec "autoexec.cfg"``` at the end of ```profile.cfg```. you will need to make ```profile.cfg``` read only or else it will over wright after exicution.*
 
 
 You can add these in origin or at the end of your path in your desktop shortcut(helps if you have multiple accounts)
-
-### IF YOU WISH to exec autoexec on Start up you can add ```exec "autoexec.cfg"``` at the end of ```profile.cfg``` 
-### you will need to make ```profile.cfg``` read only or else it will over wright after exicution.
 
 ```-novid +fps_max 0 -refresh 240 -dev -console -preload -forcenovsync -fullscreen -high +exec autoexec.cfg```
 
