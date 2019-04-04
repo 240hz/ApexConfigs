@@ -1,16 +1,18 @@
 # Apex Configs
 configs optimized for a competitve player and the highest fps posible.
 
-please feel free to contribute in testing, cleaning up or adding posible command tweeks.
+please feel free to contribute in testing, cleaning up or adding posible command tweeks. cvar.txt has many commands to test.
 
 ## Start up parameters
 You can add these in origin or at the end of your path in your desktop shortcut(helps if you have multiple accounts)
 
 ### start up parameters seem to crash the game on launch with recent patch 
+### IF YOU WISH to exec autoexec on Start up you can add ```exec "autoexec.cfg"``` at the end of ```profile.cfg``` 
+### you will need to make ```profile.cfg``` read only or else it will over wright after exicution.
 
 ```-novid +fps_max 0 -refresh 240 -dev -console -preload -forcenovsync -fullscreen -high +exec autoexec.cfg```
 
-```+fps_max``` set fps 1-300 0 = unlimited
+```+fps_max``` set fps 1-300.
 ```-refresh``` add the hz of you monitor's refreshrate.
 ```-dev -console``` are to enable developer console and is cheat protected.
 ```-preload``` could cause stutters on some old systems. but will increse preformance on others.
@@ -30,9 +32,7 @@ You can add these in origin or at the end of your path in your desktop shortcut(
 
 example ```C:\Program Files (x86)\Origin Games\Apex\cfg\autoexec.cfg```
 
-## Frame caping
-
-In-Game fps cap ```max_fps``` only works up to 144fps.
+## Consistant frame caping
 
 Use RTSS for framerate caping as like most other game engines caps nothing beats RTSS in frametime consistancy. I wish there was an equivalent that was open source
 
