@@ -3,12 +3,14 @@ configs optimized for a competitve player and the highest fps posible.
 
 please feel free to contribute in testing, cleaning up or adding posible command tweeks. cvar.txt has many commands to test.
 
-## Start up parameters
-### *START UP PARAMETERS MAY CRASH THE GAME(BUG FROM RECENT PATCH)*
-*If you wish to autoexec on Start up you can add ```exec "autoexec.cfg"``` at the end of ```profile.cfg```. you will need to make ```profile.cfg``` read only or else it will over wright after exicution.*
+## Running autoexec on startup
 
+If you wish to autoexec on Start up you can add ```exec "autoexec.cfg"``` at the end of ```profile.cfg```. EXAMPLE: [profile.cfg](https://raw.githubusercontent.com/240hz/ApexConfigs/master/profile.cfg) You will need to make ```profile.cfg``` read only or else it will over wright after execution. 
 
-You can add these in origin or at the end of your path in your desktop shortcut(helps if you have multiple accounts)
+#### Start up parameters
+Running on start up Using start up parameters may crash your game. Best to go by ```profile.cfg``` method.
+
+You can add these in origin or at the end of your **Target:** path in your desktop shortcut's properties(helps if you have multiple accounts)
 
 ```-novid +fps_max 0 -refresh 240 -dev -console -preload -forcenovsync -fullscreen -high +exec autoexec.cfg```
 
