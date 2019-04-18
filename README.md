@@ -3,8 +3,8 @@ configs optimized for a competitve player and the highest fps posible.
 
 please feel free to contribute in testing, cleaning up or adding posible command tweeks. cvar.txt has many commands to test.
 
-## Start up parameters
-Running on start up using start up parameters may crash your game. Go by ```profile.cfg``` method if you are having issues. scroll to **Running autoexec on startup**.
+## Start up options
+Running on start up using start up options may crash your game. Go by ```profile.cfg``` method if you are having issues. scroll to **Running autoexec on startup**.
 
 You can add these in origin or at the end of your **Target:** path in your desktop shortcut's properties(helps if you have multiple accounts)
 
@@ -55,7 +55,7 @@ Included binds in ```binds.cfg``` that is exicuted in ```autoexec.cfg```
 
 - Binding a third key is simple and can be done in ```*.cfg```. for examples reference ```settings.cfg```. Insted of a ```0``` or a ```1``` at the end of the bind command seqence you will need to put a ```2```. For a 4th bind of an action you will need a ```3``` etc. example: ```bind "ALT" "+jump" 2```. This would make the 3rd bind for jump ALT. and this should be put in ```binds.cfg```.
 
-- exicuting the autoexec.cfg while in a match ```DEL``` key will apply visual diffrences. these visual diffrences are optimized atm for Max Dark Boost options on gaming monitors.
+- executing the autoexec.cfg while in a match ```DEL``` key will apply visual diffrences. these visual diffrences are optimized atm for Max Dark Boost options on gaming monitors.
 
 - some command settings only work at startup in ```videoconfig.txt``` like LOD. and others like FOV may work as a ingame bind.
 
