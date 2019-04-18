@@ -3,12 +3,8 @@ configs optimized for a competitve player and the highest fps posible.
 
 please feel free to contribute in testing, cleaning up or adding posible command tweeks. cvar.txt has many commands to test.
 
-## Running autoexec on startup
-
-If you wish to autoexec on Start up you can add ```exec "autoexec.cfg"``` at the end of ```profile.cfg```. EXAMPLE: [profile.cfg](https://raw.githubusercontent.com/240hz/ApexConfigs/master/profile.cfg) You will need to make ```profile.cfg``` read only or else it will over wright after execution. 
-
-#### Start up parameters
-Running on start up Using start up parameters may crash your game. Best to go by ```profile.cfg``` method.
+## Start up parameters
+Running on start up using start up parameters may crash your game. Go by ```profile.cfg``` method if you are having issues. scroll to **Running autoexec on startup**.
 
 You can add these in origin or at the end of your **Target:** path in your desktop shortcut's properties(helps if you have multiple accounts)
 
@@ -19,6 +15,11 @@ You can add these in origin or at the end of your **Target:** path in your deskt
 ```-dev -console``` are to enable developer console and is cheat protected.
 ```-preload``` could cause stutters on some old systems. but will increse preformance on others.
 ```-high``` is to set the game process in high priority.
+
+#### Running autoexec on startup
+
+If you wish to autoexec on Start up you can add ```exec "autoexec.cfg"``` at the end of ```profile.cfg```. EXAMPLE: [profile.cfg](https://raw.githubusercontent.com/240hz/ApexConfigs/master/profile.cfg) You will need to make ```profile.cfg``` read only or else it will over wright after execution. 
+
 
 ## Locations
 
@@ -57,7 +58,10 @@ Included binds in ```binds.cfg``` that is exicuted in ```autoexec.cfg```
 - exicuting the autoexec.cfg while in a match ```DEL``` key will apply visual diffrences. these visual diffrences are optimized atm for Max Dark Boost options on gaming monitors.
 
 - some command settings only work at startup in ```videoconfig.txt``` like LOD. and others like FOV may work as a ingame bind.
- 
+
+## credits
+Multiple reddit post and also githubs look at my stars for more config projects(240hz)
+
 ## to do
 
 - compare against mendo's autoexec when released
