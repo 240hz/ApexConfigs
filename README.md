@@ -60,7 +60,11 @@ Included binds in ```binds.cfg``` that is exicuted in ```autoexec.cfg```
 - some command settings only work at startup in ```videoconfig.txt``` like LOD. and others like FOV may work as a ingame bind.
 
 ## credits
-Multiple reddit post and also githubs look at my stars for more config projects(240hz)
+Multiple reddit post and also githubs. Check out these other configs lots of good examples!
+https://github.com/kALLEBALIK/Apex-config
+https://github.com/IY/RatzAutoexec
+https://github.com/r1ft4469/Apex_Config
+https://github.com/NotTsunami/ApexConfig
 
 ## to do
 
