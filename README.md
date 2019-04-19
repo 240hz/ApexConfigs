@@ -6,13 +6,12 @@ please feel free to contribute in testing, cleaning up or adding posible command
 ## Start up options
 Running on start up using start up options may crash your game. Go by ```profile.cfg``` method if you are having issues. scroll to **Running autoexec on startup**.
 
-You can add these in origin or at the end of your **Target:** path in your desktop shortcut's properties(helps if you have multiple accounts)
+You can add these in origin or at the end of your **Target:** path in your desktop shortcut's properties(helps if you have multiple accounts) You can use ```+``` or ```-``` to tag a startup command.
 
-```-novid +fps_max 0 -refresh 240 -dev -console -preload -forcenovsync -fullscreen -high +exec autoexec.cfg```
+```+fps_max 0 -refresh 240 -forcenovsync -fullscreen -high +exec autoexec.cfg```
 
 ```+fps_max``` set fps 1-300.
 ```-refresh``` add the hz of you monitor's refreshrate.
-```-dev -console``` are to enable developer console and is cheat protected.
 ```-preload``` could cause stutters on some old systems. but will increse preformance on others.
 ```-high``` is to set the game process in high priority.
 
@@ -45,11 +44,12 @@ https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.h
 
 Included binds in ```binds.cfg``` that is exicuted in ```autoexec.cfg```
 
- - ```~``` and ```DELETE``` Keys will re-execute ```autoexec.cfg```
+ - ```~``` or ``` ` ``` will re-execute ```autoexec.cfg```
+ - ```DELETE``` toggles network graph.
  - ```END``` toggles ```cl_showpos 0 1```
  - ```HOME``` toggles ```cl_showfps 0 4```
  - ```=``` toggles master volume 100% 15% ```-``` toggles master volume mute/100%
- - ```MUST ENABLE``` toggles ```cl_fovScale 1.275 1.55``` (90-110) a fix for bloodhounds ult if you get massive frame drops. or for useing scopes range finder as the ticks are bugged on fov diffrent then 90.
+ - ```MUST ENABLE``` toggles ```cl_fovScale``` (70-120) a fix for bloodhounds ult if you get massive frame drops.
 
 ## Other things notable 
 
@@ -61,9 +61,13 @@ Included binds in ```binds.cfg``` that is exicuted in ```autoexec.cfg```
 
 ## credits
 Multiple reddit post and also githubs. Check out these other configs lots of good examples!
+
 https://github.com/kALLEBALIK/Apex-config
+
 https://github.com/IY/RatzAutoexec
+
 https://github.com/r1ft4469/Apex_Config
+
 https://github.com/NotTsunami/ApexConfig
 
 ## to do
